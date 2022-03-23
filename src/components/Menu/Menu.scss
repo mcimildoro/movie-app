@@ -1,0 +1,11 @@
+.menu-top {
+  display: flex;
+  flex-direction: row;
+
+  &__logo {
+    margin-right: 40px;
+    svg {
+      width: 40px;
+    }
+  }
+}
