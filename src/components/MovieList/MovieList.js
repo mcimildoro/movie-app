@@ -8,7 +8,7 @@ import "./MovieList.scss";
 export default function MovieList(props) {
   const { tittle, movies } = props;
 
-  console.log(props);
+  if (!movies?.result?.results) return null;
 
   return (
     <List
